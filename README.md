@@ -1,5 +1,5 @@
-# error-tracker
-前端错误收集器
+# web-error-tracker-presentation
+此项目是[前端错误收集器](https://github.com/evilrescuer/web-error-tracker)项目的演示项目
 
 安装 | [测试](./README_demo.md)
 #### 引入
@@ -17,10 +17,10 @@
 ...
 
 // body的最后引入
-<script src="https://github.com/evilrescuer/error-tracker/blob/master/error-tracker.js"></script>
+<script src="https://github.com/evilrescuer/web-error-tracker/blob/master/index-file.js"></script>
 </body>
 ```
 
 #### 获取当前收集到到错误
-`window.errorTracker.getErrors()`
+`errorTracker.getErrors()`
 

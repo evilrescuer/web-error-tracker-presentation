@@ -1,7 +1,7 @@
 {
   "name": "web-error-tracker-presentation",
   "version": "1.0.0",
-  "description": "",
+  "description": "An presentation for an web error tracker.",
   "main": "index.js",
   "scripts": {
     "demo": "webpack && node ./dist/server/index.js",
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "web-error-tracker": "^1.0.1"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
